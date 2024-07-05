@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+      font-family: 'Roboto', Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* Login and Signup Form Containers */
+    #loginFormContainer, #signupFormContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    
+    /* Login and Signup Forms */
+    #loginForm, #signupForm {
+      background-color: white;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      width: 350px;
+    }
+    
+    /* Form Headings */
+    #loginForm h2, #signupForm h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #333;
+    }
+    
+    /* Form Labels */
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 8px;
+      color: #555;
+    }
+    
+    /* Form Inputs */
+    input[type="email"], input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+      font-size: 16px;
+    }
+    
+    /* Form Buttons */
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    
+    button:hover {
+      background-color: #45a049;
+    }
+    
+    /* Login/Signup Messages */
+    #loginMessage, #signupMessage {
+      text-align: center;
+      margin-top: 15px;
+      font-size: 14px;
+    }
+    
+    #loginMessage.success, #signupMessage.success {
+      color: #4CAF50;
+    }
+    
+    #loginMessage.error, #signupMessage.error {
+      color: #f44336;
+    }
+    
+    /* Links */
+    a {
+      color: #4CAF50;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    
+    a:hover {
+      color: #45a049;
+    }
